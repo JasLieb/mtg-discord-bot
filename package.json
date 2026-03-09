@@ -1,0 +1,32 @@
+{
+  "name": "discordjs-typescript-template",
+  "version": "0.1.0",
+  "description": "Basic template for creating a Discord bot with TypeScript and discord.js",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "dotenv -e .env tsx ."
+  },
+  "keywords": [
+    "discordjs-typescript",
+    "discordjs",
+    "discord",
+    "typescript",
+    "t3",
+    "discord-js-template",
+    "discordjs-bot"
+  ],
+  "author": "Dennis Lustre",
+  "license": "ISC",
+  "dependencies": {
+    "@t3-oss/env-core": "^0.10.1",
+    "discord.js": "^14.15.3",
+    "dotenv-cli": "^7.4.2",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "tsx": "^4.15.7",
+    "typescript": "^5.5.2"
+  }
+}
