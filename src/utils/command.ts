@@ -2,6 +2,7 @@ import {
   ChatInputCommandInteraction,
   ContextMenuCommandBuilder,
   SlashCommandBuilder,
+  SlashCommandOptionsOnlyBuilder,
   SlashCommandSubcommandsOnlyBuilder,
 } from "discord.js";
 
@@ -9,6 +10,7 @@ export interface CommandConfig {
   data:
     | SlashCommandBuilder
     | ContextMenuCommandBuilder
+    | SlashCommandOptionsOnlyBuilder
     | SlashCommandSubcommandsOnlyBuilder;
   execute: (interaction: ChatInputCommandInteraction) => Promise<void> | void;
 }
